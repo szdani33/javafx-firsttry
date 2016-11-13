@@ -13,7 +13,7 @@ public class Hexagon extends Polygon {
     private Point2D center;
     private boolean flatTop;
 
-    public Hexagon(double size , Point2D center, boolean flatTop) {
+    public Hexagon(double size, Point2D center, boolean flatTop) {
         this.size = size;
         this.center = center;
         this.flatTop = flatTop;
